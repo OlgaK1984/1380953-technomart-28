@@ -10,13 +10,31 @@
   <header>
       <a><img src="img/logo.svg" alt="Техномарт" width="108" height="18"></a>
 
-      <img src="img/icon-search_o.svg" alt="Поиск" width="17" height="17">
-      <input name="s">
+  <form>
+    <img src="img/icon-search_o.svg" alt="Поиск" width="17" height="17">
+    <input type="text" placeholder="Поиск:">
+    <button type="submit"></button>
+  </form>
       <img src="img/icon-bookmark_o.svg" alt="Закладки" width="14" height="16">
       <a href="#">Закладки:0</a>
       <img src="img/icon-cart_o.svg" alt="Корзина" width="15" height="15">
       <a href="#">Корзина:0</a>
       <a href="blank.html">Оформить заказ</a>
+  <form>
+            <fieldset>
+    <label for="name">Ваше имя:</label>
+    <input type="text" id="name" name="name" value="Имя Фамилия">
+
+    <label for="email">Ваш e-mail:</label>
+    <input type="email" id="email" name="login" value="email@example.com">
+
+    <label for="comment">Текст письма:</label>
+    <textarea name="comment" id="comment" rows="5">В свободной форме</textarea>
+             </fieldset>
+    <input type="submit" value="ОФОРМИТЬ ЗАКАЗ">
+    <input type="submit" value="">
+  </form>
+
   <p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
 
 <section>
@@ -321,6 +339,7 @@
 <div>
 <img src="img/map_s.jpg" alt="Карта" width="300" height="158">
     </div>
+    <script></script>
     </section>
       <a href="blank.html">Заблудились? Напишите нам!</a>
 
